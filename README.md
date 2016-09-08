@@ -1,1 +1,2 @@
-# demo_jenkins
+# blazemeter-demo
+Simple App to Test BlazeMeter Jenkins Integration
