@@ -1,0 +1,8 @@
+{
+ "execution": [
+  {
+   "scenario": "_blazedemo_v3.jmx", 
+   "executor": "jmeter"
+  }
+ ]
+}

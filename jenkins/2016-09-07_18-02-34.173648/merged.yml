@@ -1,0 +1,17 @@
+---
+execution:
+  concurrency: 200
+  hold-for: 5m
+  ramp-up: 5m
+  scenario:
+    requests:
+    - http://blazedemo.com/
+    - http://blazedemo.com/vacation.html
+    think-time: 0.5s
+modules:
+  blazemeter:
+    token: '********'
+reporting:
+- module: blazemeter
+  test: Taurus Demo
+

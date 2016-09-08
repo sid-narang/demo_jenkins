@@ -1,0 +1,25 @@
+{
+ "execution": {
+  "ramp-up": "5m", 
+  "hold-for": "5m", 
+  "concurrency": 200, 
+  "scenario": {
+   "think-time": "0.5s", 
+   "requests": [
+    "http://blazedemo.com/", 
+    "http://blazedemo.com/vacation.html"
+   ]
+  }
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }, 
+ "reporting": [
+  {
+   "test": "Taurus Demo", 
+   "module": "blazemeter"
+  }
+ ]
+}
