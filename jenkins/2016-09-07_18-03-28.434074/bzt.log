@@ -7063,3 +7063,906 @@ Content-Type: application/json
   "Memory": "Memory"
  }, 
 
+[2016-09-07 18:12:24,588 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:12:24,594 DEBUG Engine] Iteration took 8.521 sec, sleeping for -7.521 sec...
+[2016-09-07 18:12:24,594 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:12:24,594 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:12:24,596 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:12:24,596 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 144 / 14439 bytes (at speed 1048576)
+[2016-09-07 18:12:24,599 DEBUG Engine.jmeter.JTLReader] Buffer len: 26
+[2016-09-07 18:12:24,599 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297116
+[2016-09-07 18:12:24,638 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297117
+[2016-09-07 18:12:24,677 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297118
+[2016-09-07 18:12:24,717 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297119
+[2016-09-07 18:12:24,751 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297120
+[2016-09-07 18:12:24,792 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297121
+[2016-09-07 18:12:24,828 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297122
+[2016-09-07 18:12:24,872 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297123
+[2016-09-07 18:12:24,909 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297124
+[2016-09-07 18:12:24,944 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297125
+[2016-09-07 18:12:24,981 DEBUG Engine.consolidator] Consolidator buffer[12]: [1473297114, 1473297115, 1473297116, 1473297117, 1473297118, 1473297119, 1473297120, 1473297121, 1473297122, 1473297123, 1473297124, 1473297125]
+[2016-09-07 18:12:24,981 DEBUG Engine.consolidator] Merging into 1473297114
+[2016-09-07 18:12:24,981 DEBUG Engine.consolidator] Merging 1473297114
+[2016-09-07 18:12:25,049 DEBUG Engine.consolidator] Processed datapoint: 1473297114/None
+[2016-09-07 18:12:25,049 DEBUG Engine.consolidator] Merging into 1473297115
+[2016-09-07 18:12:25,049 DEBUG Engine.consolidator] Merging 1473297115
+[2016-09-07 18:12:25,142 DEBUG Engine.consolidator] Processed datapoint: 1473297115/None
+[2016-09-07 18:12:25,143 DEBUG Engine.consolidator] Merging into 1473297116
+[2016-09-07 18:12:25,143 DEBUG Engine.consolidator] Merging 1473297116
+[2016-09-07 18:12:25,213 DEBUG Engine.consolidator] Processed datapoint: 1473297116/None
+[2016-09-07 18:12:25,213 DEBUG Engine.consolidator] Merging into 1473297117
+[2016-09-07 18:12:25,213 DEBUG Engine.consolidator] Merging 1473297117
+[2016-09-07 18:12:25,295 DEBUG Engine.consolidator] Processed datapoint: 1473297117/None
+[2016-09-07 18:12:25,295 DEBUG Engine.consolidator] Merging into 1473297118
+[2016-09-07 18:12:25,295 DEBUG Engine.consolidator] Merging 1473297118
+[2016-09-07 18:12:25,368 DEBUG Engine.consolidator] Processed datapoint: 1473297118/None
+[2016-09-07 18:12:25,368 DEBUG Engine.consolidator] Merging into 1473297119
+[2016-09-07 18:12:25,368 DEBUG Engine.consolidator] Merging 1473297119
+[2016-09-07 18:12:25,433 DEBUG Engine.consolidator] Processed datapoint: 1473297119/None
+[2016-09-07 18:12:25,433 DEBUG Engine.consolidator] Merging into 1473297120
+[2016-09-07 18:12:25,434 DEBUG Engine.consolidator] Merging 1473297120
+[2016-09-07 18:12:25,502 DEBUG Engine.consolidator] Processed datapoint: 1473297120/None
+[2016-09-07 18:12:25,502 DEBUG Engine.consolidator] Merging into 1473297121
+[2016-09-07 18:12:25,502 DEBUG Engine.consolidator] Merging 1473297121
+[2016-09-07 18:12:25,574 DEBUG Engine.consolidator] Processed datapoint: 1473297121/None
+[2016-09-07 18:12:25,575 DEBUG Engine.consolidator] Merging into 1473297122
+[2016-09-07 18:12:25,575 DEBUG Engine.consolidator] Merging 1473297122
+[2016-09-07 18:12:25,652 DEBUG Engine.consolidator] Processed datapoint: 1473297122/None
+[2016-09-07 18:12:25,652 DEBUG Engine.consolidator] Merging into 1473297123
+[2016-09-07 18:12:25,652 DEBUG Engine.consolidator] Merging 1473297123
+[2016-09-07 18:12:25,720 DEBUG Engine.consolidator] Processed datapoint: 1473297123/None
+[2016-09-07 18:12:25,720 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:12:25,721 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:12:25,721 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:12:25,761 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:12:25,761 DEBUG Engine.blazemeter] KPI bulk buffer len: 10
+[2016-09-07 18:12:25,768 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-57d0b8e1b4159&signature=40606182637823029737718c2ee21ca0&test_id=5266494&user_id=117345&pq=0&target=labels_bulk&update=1 {
+ "sourceID": 4344690320, 
+ "labels": [
+  {
+   "percentileHistogramLatency": [], 
+   "otherErrorsCount": 0, 
+   "failedEmbeddedResources": [], 
+   "intervals": [
+    {
+     "by": {
+      "std": 0, 
+      "min": 0, 
+      "max": 0, 
+      "sum": 0, 
+      
+[2016-09-07 18:12:28,158 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-57d0b8e1b4159","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2016-09-07 18:12:28,158 DEBUG Engine.blazemeter.BlazeMeterUploader] Result: {u'status': u'INITIALIZING', u'_id': u'r-ext-57d0b8e1b4159', u'name': u'external', u'statusCode': 100}
+[2016-09-07 18:12:28,159 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============2653076962665681784==
+Content-Disposition: file; name="file"; filename="sample.jtl.blazemeter.summery.json"
+Content-Type: application/json
+
+{
+ "timestamp": 1473297123, 
+ "summery": {
+  "labels": [
+   {
+    "count": 508, 
+    "embeddedR
+[2016-09-07 18:12:32,179 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "sample.jtl.blazemeter.summery.json"
+    ]
+}
+[2016-09-07 18:12:32,229 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============4877220834908983211==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:12:38,128 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:12:38,134 DEBUG Engine] Iteration took 13.540 sec, sleeping for -12.540 sec...
+[2016-09-07 18:12:38,134 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:12:38,134 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:12:38,138 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:12:38,138 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 191 / 19574 bytes (at speed 1048576)
+[2016-09-07 18:12:38,141 DEBUG Engine.jmeter.JTLReader] Buffer len: 28
+[2016-09-07 18:12:38,141 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297126
+[2016-09-07 18:12:38,180 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297127
+[2016-09-07 18:12:38,224 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297128
+[2016-09-07 18:12:38,262 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297129
+[2016-09-07 18:12:38,300 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297130
+[2016-09-07 18:12:38,342 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297131
+[2016-09-07 18:12:38,381 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297132
+[2016-09-07 18:12:38,415 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297133
+[2016-09-07 18:12:38,454 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297134
+[2016-09-07 18:12:38,492 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297135
+[2016-09-07 18:12:38,531 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297136
+[2016-09-07 18:12:38,570 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297137
+[2016-09-07 18:12:38,607 DEBUG Engine.consolidator] Consolidator buffer[14]: [1473297124, 1473297125, 1473297126, 1473297127, 1473297128, 1473297129, 1473297130, 1473297131, 1473297132, 1473297133, 1473297134, 1473297135, 1473297136, 1473297137]
+[2016-09-07 18:12:38,607 DEBUG Engine.consolidator] Merging into 1473297124
+[2016-09-07 18:12:38,607 DEBUG Engine.consolidator] Merging 1473297124
+[2016-09-07 18:12:38,677 DEBUG Engine.consolidator] Processed datapoint: 1473297124/None
+[2016-09-07 18:12:38,677 DEBUG Engine.consolidator] Merging into 1473297125
+[2016-09-07 18:12:38,677 DEBUG Engine.consolidator] Merging 1473297125
+[2016-09-07 18:12:38,745 DEBUG Engine.consolidator] Processed datapoint: 1473297125/None
+[2016-09-07 18:12:38,745 DEBUG Engine.consolidator] Merging into 1473297126
+[2016-09-07 18:12:38,745 DEBUG Engine.consolidator] Merging 1473297126
+[2016-09-07 18:12:38,817 DEBUG Engine.consolidator] Processed datapoint: 1473297126/None
+[2016-09-07 18:12:38,817 DEBUG Engine.consolidator] Merging into 1473297127
+[2016-09-07 18:12:38,817 DEBUG Engine.consolidator] Merging 1473297127
+[2016-09-07 18:12:38,902 DEBUG Engine.consolidator] Processed datapoint: 1473297127/None
+[2016-09-07 18:12:38,902 DEBUG Engine.consolidator] Merging into 1473297128
+[2016-09-07 18:12:38,902 DEBUG Engine.consolidator] Merging 1473297128
+[2016-09-07 18:12:38,968 DEBUG Engine.consolidator] Processed datapoint: 1473297128/None
+[2016-09-07 18:12:38,968 DEBUG Engine.consolidator] Merging into 1473297129
+[2016-09-07 18:12:38,968 DEBUG Engine.consolidator] Merging 1473297129
+[2016-09-07 18:12:39,036 DEBUG Engine.consolidator] Processed datapoint: 1473297129/None
+[2016-09-07 18:12:39,036 DEBUG Engine.consolidator] Merging into 1473297130
+[2016-09-07 18:12:39,036 DEBUG Engine.consolidator] Merging 1473297130
+[2016-09-07 18:12:39,102 DEBUG Engine.consolidator] Processed datapoint: 1473297130/None
+[2016-09-07 18:12:39,102 DEBUG Engine.consolidator] Merging into 1473297131
+[2016-09-07 18:12:39,102 DEBUG Engine.consolidator] Merging 1473297131
+[2016-09-07 18:12:39,169 DEBUG Engine.consolidator] Processed datapoint: 1473297131/None
+[2016-09-07 18:12:39,169 DEBUG Engine.consolidator] Merging into 1473297132
+[2016-09-07 18:12:39,169 DEBUG Engine.consolidator] Merging 1473297132
+[2016-09-07 18:12:39,239 DEBUG Engine.consolidator] Processed datapoint: 1473297132/None
+[2016-09-07 18:12:39,239 DEBUG Engine.consolidator] Merging into 1473297133
+[2016-09-07 18:12:39,239 DEBUG Engine.consolidator] Merging 1473297133
+[2016-09-07 18:12:39,303 DEBUG Engine.consolidator] Processed datapoint: 1473297133/None
+[2016-09-07 18:12:39,303 DEBUG Engine.consolidator] Merging into 1473297134
+[2016-09-07 18:12:39,303 DEBUG Engine.consolidator] Merging 1473297134
+[2016-09-07 18:12:39,375 DEBUG Engine.consolidator] Processed datapoint: 1473297134/None
+[2016-09-07 18:12:39,375 DEBUG Engine.consolidator] Merging into 1473297135
+[2016-09-07 18:12:39,375 DEBUG Engine.consolidator] Merging 1473297135
+[2016-09-07 18:12:39,440 DEBUG Engine.consolidator] Processed datapoint: 1473297135/None
+[2016-09-07 18:12:39,440 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:12:39,441 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:12:39,441 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:12:39,465 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:12:39,465 DEBUG Engine.blazemeter] KPI bulk buffer len: 12
+[2016-09-07 18:12:39,473 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-57d0b8e1b4159&signature=40606182637823029737718c2ee21ca0&test_id=5266494&user_id=117345&pq=0&target=labels_bulk&update=1 {
+ "sourceID": 4344690320, 
+ "labels": [
+  {
+   "percentileHistogramLatency": [], 
+   "otherErrorsCount": 0, 
+   "failedEmbeddedResources": [], 
+   "intervals": [
+    {
+     "by": {
+      "std": 0, 
+      "min": 0, 
+      "max": 0, 
+      "sum": 0, 
+      
+[2016-09-07 18:12:40,783 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-57d0b8e1b4159","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2016-09-07 18:12:40,783 DEBUG Engine.blazemeter.BlazeMeterUploader] Result: {u'status': u'INITIALIZING', u'_id': u'r-ext-57d0b8e1b4159', u'name': u'external', u'statusCode': 100}
+[2016-09-07 18:12:40,784 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============1328506032870516650==
+Content-Disposition: file; name="file"; filename="sample.jtl.blazemeter.summery.json"
+Content-Type: application/json
+
+{
+ "timestamp": 1473297135, 
+ "summery": {
+  "labels": [
+   {
+    "count": 537, 
+    "embeddedR
+[2016-09-07 18:12:43,687 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "sample.jtl.blazemeter.summery.json"
+    ]
+}
+[2016-09-07 18:12:43,737 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============8565123130800460528==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:12:57,421 DEBUG Engine.blazemeter] Error sending data: Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/bzt/modules/blazemeter.py", line 54, in _impl
+    method(self, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/bzt/modules/blazemeter.py", line 347, in __send_monitoring
+    self.client.send_monitoring_data(src_name, data)
+  File "/Library/Python/2.7/site-packages/bzt/modules/blazemeter.py", line 1135, in send_monitoring_data
+    self.upload_file('%s.monitoring.json' % src_name, to_json(data))
+  File "/Library/Python/2.7/site-packages/bzt/modules/blazemeter.py", line 962, in upload_file
+    response = self._request(url, body.form_as_bytes(), headers=hdr)
+  File "/Library/Python/2.7/site-packages/bzt/modules/blazemeter.py", line 617, in _request
+    response = urlopen(req, timeout=self.timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 449, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1240, in https_open
+    context=self._context)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+
+[2016-09-07 18:12:57,421 WARNING Engine.blazemeter] Failed to send data, will retry in 10.0 sec...
+[2016-09-07 18:13:07,466 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============3468313817418020772==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:13:09,295 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:13:09,296 INFO Engine.blazemeter] Succeeded with retry
+[2016-09-07 18:13:09,308 DEBUG Engine] Iteration took 31.174 sec, sleeping for -30.174 sec...
+[2016-09-07 18:13:09,309 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:09,309 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:09,318 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:09,319 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 534 / 54646 bytes (at speed 1048576)
+[2016-09-07 18:13:09,326 DEBUG Engine.jmeter.JTLReader] Buffer len: 48
+[2016-09-07 18:13:09,326 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297138
+[2016-09-07 18:13:09,361 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297139
+[2016-09-07 18:13:09,396 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297140
+[2016-09-07 18:13:09,430 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297141
+[2016-09-07 18:13:09,463 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297142
+[2016-09-07 18:13:09,496 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297143
+[2016-09-07 18:13:09,534 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297144
+[2016-09-07 18:13:09,576 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297145
+[2016-09-07 18:13:09,616 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297146
+[2016-09-07 18:13:09,652 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297147
+[2016-09-07 18:13:09,690 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297148
+[2016-09-07 18:13:09,730 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297149
+[2016-09-07 18:13:09,765 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297150
+[2016-09-07 18:13:09,797 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297151
+[2016-09-07 18:13:09,834 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297152
+[2016-09-07 18:13:09,871 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297153
+[2016-09-07 18:13:09,907 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297154
+[2016-09-07 18:13:09,943 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297155
+[2016-09-07 18:13:09,979 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297156
+[2016-09-07 18:13:10,020 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297157
+[2016-09-07 18:13:10,055 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297158
+[2016-09-07 18:13:10,120 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297159
+[2016-09-07 18:13:10,158 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297160
+[2016-09-07 18:13:10,193 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297161
+[2016-09-07 18:13:10,231 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297162
+[2016-09-07 18:13:10,271 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297163
+[2016-09-07 18:13:10,312 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297164
+[2016-09-07 18:13:10,351 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297165
+[2016-09-07 18:13:10,391 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297166
+[2016-09-07 18:13:10,432 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297167
+[2016-09-07 18:13:10,471 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297168
+[2016-09-07 18:13:10,512 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297169
+[2016-09-07 18:13:10,553 DEBUG Engine.consolidator] Consolidator buffer[34]: [1473297152, 1473297153, 1473297154, 1473297155, 1473297156, 1473297157, 1473297158, 1473297159, 1473297160, 1473297161, 1473297162, 1473297163, 1473297164, 1473297165, 1473297166, 1473297167, 1473297168, 1473297169, 1473297136, 1473297137, 1473297138, 1473297139, 1473297140, 1473297141, 1473297142, 1473297143, 1473297144, 1473297145, 1473297146, 1473297147, 1473297148, 1473297149, 1473297150, 1473297151]
+[2016-09-07 18:13:10,554 DEBUG Engine.consolidator] Merging into 1473297136
+[2016-09-07 18:13:10,554 DEBUG Engine.consolidator] Merging 1473297136
+[2016-09-07 18:13:10,629 DEBUG Engine.consolidator] Processed datapoint: 1473297136/None
+[2016-09-07 18:13:10,629 DEBUG Engine.consolidator] Merging into 1473297137
+[2016-09-07 18:13:10,629 DEBUG Engine.consolidator] Merging 1473297137
+[2016-09-07 18:13:10,705 DEBUG Engine.consolidator] Processed datapoint: 1473297137/None
+[2016-09-07 18:13:10,705 DEBUG Engine.consolidator] Merging into 1473297138
+[2016-09-07 18:13:10,705 DEBUG Engine.consolidator] Merging 1473297138
+[2016-09-07 18:13:10,783 DEBUG Engine.consolidator] Processed datapoint: 1473297138/None
+[2016-09-07 18:13:10,783 DEBUG Engine.consolidator] Merging into 1473297139
+[2016-09-07 18:13:10,783 DEBUG Engine.consolidator] Merging 1473297139
+[2016-09-07 18:13:10,851 DEBUG Engine.consolidator] Processed datapoint: 1473297139/None
+[2016-09-07 18:13:10,851 DEBUG Engine.consolidator] Merging into 1473297140
+[2016-09-07 18:13:10,851 DEBUG Engine.consolidator] Merging 1473297140
+[2016-09-07 18:13:10,961 DEBUG Engine.consolidator] Processed datapoint: 1473297140/None
+[2016-09-07 18:13:10,961 DEBUG Engine.consolidator] Merging into 1473297141
+[2016-09-07 18:13:10,961 DEBUG Engine.consolidator] Merging 1473297141
+[2016-09-07 18:13:11,034 DEBUG Engine.consolidator] Processed datapoint: 1473297141/None
+[2016-09-07 18:13:11,034 DEBUG Engine.consolidator] Merging into 1473297142
+[2016-09-07 18:13:11,034 DEBUG Engine.consolidator] Merging 1473297142
+[2016-09-07 18:13:11,103 DEBUG Engine.consolidator] Processed datapoint: 1473297142/None
+[2016-09-07 18:13:11,103 DEBUG Engine.consolidator] Merging into 1473297143
+[2016-09-07 18:13:11,103 DEBUG Engine.consolidator] Merging 1473297143
+[2016-09-07 18:13:11,184 DEBUG Engine.consolidator] Processed datapoint: 1473297143/None
+[2016-09-07 18:13:11,184 DEBUG Engine.consolidator] Merging into 1473297144
+[2016-09-07 18:13:11,184 DEBUG Engine.consolidator] Merging 1473297144
+[2016-09-07 18:13:11,252 DEBUG Engine.consolidator] Processed datapoint: 1473297144/None
+[2016-09-07 18:13:11,252 DEBUG Engine.consolidator] Merging into 1473297145
+[2016-09-07 18:13:11,252 DEBUG Engine.consolidator] Merging 1473297145
+[2016-09-07 18:13:11,320 DEBUG Engine.consolidator] Processed datapoint: 1473297145/None
+[2016-09-07 18:13:11,320 DEBUG Engine.consolidator] Merging into 1473297146
+[2016-09-07 18:13:11,320 DEBUG Engine.consolidator] Merging 1473297146
+[2016-09-07 18:13:11,391 DEBUG Engine.consolidator] Processed datapoint: 1473297146/None
+[2016-09-07 18:13:11,391 DEBUG Engine.consolidator] Merging into 1473297147
+[2016-09-07 18:13:11,391 DEBUG Engine.consolidator] Merging 1473297147
+[2016-09-07 18:13:11,460 DEBUG Engine.consolidator] Processed datapoint: 1473297147/None
+[2016-09-07 18:13:11,460 DEBUG Engine.consolidator] Merging into 1473297148
+[2016-09-07 18:13:11,460 DEBUG Engine.consolidator] Merging 1473297148
+[2016-09-07 18:13:11,534 DEBUG Engine.consolidator] Processed datapoint: 1473297148/None
+[2016-09-07 18:13:11,534 DEBUG Engine.consolidator] Merging into 1473297149
+[2016-09-07 18:13:11,534 DEBUG Engine.consolidator] Merging 1473297149
+[2016-09-07 18:13:11,642 DEBUG Engine.consolidator] Processed datapoint: 1473297149/None
+[2016-09-07 18:13:11,642 DEBUG Engine.consolidator] Merging into 1473297150
+[2016-09-07 18:13:11,642 DEBUG Engine.consolidator] Merging 1473297150
+[2016-09-07 18:13:11,708 DEBUG Engine.consolidator] Processed datapoint: 1473297150/None
+[2016-09-07 18:13:11,708 DEBUG Engine.consolidator] Merging into 1473297151
+[2016-09-07 18:13:11,708 DEBUG Engine.consolidator] Merging 1473297151
+[2016-09-07 18:13:11,775 DEBUG Engine.consolidator] Processed datapoint: 1473297151/None
+[2016-09-07 18:13:11,775 DEBUG Engine.consolidator] Merging into 1473297152
+[2016-09-07 18:13:11,775 DEBUG Engine.consolidator] Merging 1473297152
+[2016-09-07 18:13:11,851 DEBUG Engine.consolidator] Processed datapoint: 1473297152/None
+[2016-09-07 18:13:11,851 DEBUG Engine.consolidator] Merging into 1473297153
+[2016-09-07 18:13:11,851 DEBUG Engine.consolidator] Merging 1473297153
+[2016-09-07 18:13:11,926 DEBUG Engine.consolidator] Processed datapoint: 1473297153/None
+[2016-09-07 18:13:11,926 DEBUG Engine.consolidator] Merging into 1473297154
+[2016-09-07 18:13:11,926 DEBUG Engine.consolidator] Merging 1473297154
+[2016-09-07 18:13:12,004 DEBUG Engine.consolidator] Processed datapoint: 1473297154/None
+[2016-09-07 18:13:12,004 DEBUG Engine.consolidator] Merging into 1473297155
+[2016-09-07 18:13:12,004 DEBUG Engine.consolidator] Merging 1473297155
+[2016-09-07 18:13:12,086 DEBUG Engine.consolidator] Processed datapoint: 1473297155/None
+[2016-09-07 18:13:12,086 DEBUG Engine.consolidator] Merging into 1473297156
+[2016-09-07 18:13:12,086 DEBUG Engine.consolidator] Merging 1473297156
+[2016-09-07 18:13:12,162 DEBUG Engine.consolidator] Processed datapoint: 1473297156/None
+[2016-09-07 18:13:12,162 DEBUG Engine.consolidator] Merging into 1473297157
+[2016-09-07 18:13:12,162 DEBUG Engine.consolidator] Merging 1473297157
+[2016-09-07 18:13:12,241 DEBUG Engine.consolidator] Processed datapoint: 1473297157/None
+[2016-09-07 18:13:12,241 DEBUG Engine.consolidator] Merging into 1473297158
+[2016-09-07 18:13:12,241 DEBUG Engine.consolidator] Merging 1473297158
+[2016-09-07 18:13:12,358 DEBUG Engine.consolidator] Processed datapoint: 1473297158/None
+[2016-09-07 18:13:12,358 DEBUG Engine.consolidator] Merging into 1473297159
+[2016-09-07 18:13:12,358 DEBUG Engine.consolidator] Merging 1473297159
+[2016-09-07 18:13:12,433 DEBUG Engine.consolidator] Processed datapoint: 1473297159/None
+[2016-09-07 18:13:12,433 DEBUG Engine.consolidator] Merging into 1473297160
+[2016-09-07 18:13:12,433 DEBUG Engine.consolidator] Merging 1473297160
+[2016-09-07 18:13:12,513 DEBUG Engine.consolidator] Processed datapoint: 1473297160/None
+[2016-09-07 18:13:12,513 DEBUG Engine.consolidator] Merging into 1473297161
+[2016-09-07 18:13:12,513 DEBUG Engine.consolidator] Merging 1473297161
+[2016-09-07 18:13:12,598 DEBUG Engine.consolidator] Processed datapoint: 1473297161/None
+[2016-09-07 18:13:12,598 DEBUG Engine.consolidator] Merging into 1473297162
+[2016-09-07 18:13:12,599 DEBUG Engine.consolidator] Merging 1473297162
+[2016-09-07 18:13:12,678 DEBUG Engine.consolidator] Processed datapoint: 1473297162/None
+[2016-09-07 18:13:12,678 DEBUG Engine.consolidator] Merging into 1473297163
+[2016-09-07 18:13:12,678 DEBUG Engine.consolidator] Merging 1473297163
+[2016-09-07 18:13:12,760 DEBUG Engine.consolidator] Processed datapoint: 1473297163/None
+[2016-09-07 18:13:12,760 DEBUG Engine.consolidator] Merging into 1473297164
+[2016-09-07 18:13:12,760 DEBUG Engine.consolidator] Merging 1473297164
+[2016-09-07 18:13:12,841 DEBUG Engine.consolidator] Processed datapoint: 1473297164/None
+[2016-09-07 18:13:12,841 DEBUG Engine.consolidator] Merging into 1473297165
+[2016-09-07 18:13:12,841 DEBUG Engine.consolidator] Merging 1473297165
+[2016-09-07 18:13:12,922 DEBUG Engine.consolidator] Processed datapoint: 1473297165/None
+[2016-09-07 18:13:12,922 DEBUG Engine.consolidator] Merging into 1473297166
+[2016-09-07 18:13:12,922 DEBUG Engine.consolidator] Merging 1473297166
+[2016-09-07 18:13:12,999 DEBUG Engine.consolidator] Processed datapoint: 1473297166/None
+[2016-09-07 18:13:13,000 DEBUG Engine.consolidator] Merging into 1473297167
+[2016-09-07 18:13:13,000 DEBUG Engine.consolidator] Merging 1473297167
+[2016-09-07 18:13:13,118 DEBUG Engine.consolidator] Processed datapoint: 1473297167/None
+[2016-09-07 18:13:13,118 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:13,120 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:13,120 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:13,159 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:13,159 DEBUG Engine.blazemeter] KPI bulk buffer len: 32
+[2016-09-07 18:13:13,177 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-57d0b8e1b4159&signature=40606182637823029737718c2ee21ca0&test_id=5266494&user_id=117345&pq=0&target=labels_bulk&update=1 {
+ "sourceID": 4344690320, 
+ "labels": [
+  {
+   "percentileHistogramLatency": [], 
+   "otherErrorsCount": 0, 
+   "failedEmbeddedResources": [], 
+   "intervals": [
+    {
+     "by": {
+      "std": 0, 
+      "min": 0, 
+      "max": 0, 
+      "sum": 0, 
+      
+[2016-09-07 18:13:15,915 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-57d0b8e1b4159","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2016-09-07 18:13:15,915 DEBUG Engine.blazemeter.BlazeMeterUploader] Result: {u'status': u'INITIALIZING', u'_id': u'r-ext-57d0b8e1b4159', u'name': u'external', u'statusCode': 100}
+[2016-09-07 18:13:15,916 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============8465401531990171171==
+Content-Disposition: file; name="file"; filename="sample.jtl.blazemeter.summery.json"
+Content-Type: application/json
+
+{
+ "timestamp": 1473297167, 
+ "summery": {
+  "labels": [
+   {
+    "count": 635, 
+    "embeddedR
+[2016-09-07 18:13:17,453 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "sample.jtl.blazemeter.summery.json"
+    ]
+}
+[2016-09-07 18:13:17,488 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============0237414391365198182==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:13:21,913 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:13:21,928 DEBUG Engine] Iteration took 12.619 sec, sleeping for -11.619 sec...
+[2016-09-07 18:13:21,928 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:21,928 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:21,930 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:21,930 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 195 / 19952 bytes (at speed 1048576)
+[2016-09-07 18:13:21,932 DEBUG Engine.jmeter.JTLReader] Buffer len: 28
+[2016-09-07 18:13:21,932 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 17s
+[2016-09-07 18:13:21,941 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297170
+[2016-09-07 18:13:21,979 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297171
+[2016-09-07 18:13:22,017 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297172
+[2016-09-07 18:13:22,054 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297173
+[2016-09-07 18:13:22,098 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297174
+[2016-09-07 18:13:22,135 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297175
+[2016-09-07 18:13:22,176 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297176
+[2016-09-07 18:13:22,213 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297177
+[2016-09-07 18:13:22,254 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297178
+[2016-09-07 18:13:22,298 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297179
+[2016-09-07 18:13:22,342 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297180
+[2016-09-07 18:13:22,382 DEBUG Engine.consolidator] Consolidator buffer[13]: [1473297168, 1473297169, 1473297170, 1473297171, 1473297172, 1473297173, 1473297174, 1473297175, 1473297176, 1473297177, 1473297178, 1473297179, 1473297180]
+[2016-09-07 18:13:22,382 DEBUG Engine.consolidator] Merging into 1473297168
+[2016-09-07 18:13:22,382 DEBUG Engine.consolidator] Merging 1473297168
+[2016-09-07 18:13:22,465 DEBUG Engine.consolidator] Processed datapoint: 1473297168/None
+[2016-09-07 18:13:22,465 DEBUG Engine.consolidator] Merging into 1473297169
+[2016-09-07 18:13:22,465 DEBUG Engine.consolidator] Merging 1473297169
+[2016-09-07 18:13:22,537 DEBUG Engine.consolidator] Processed datapoint: 1473297169/None
+[2016-09-07 18:13:22,537 DEBUG Engine.consolidator] Merging into 1473297170
+[2016-09-07 18:13:22,537 DEBUG Engine.consolidator] Merging 1473297170
+[2016-09-07 18:13:22,630 DEBUG Engine.consolidator] Processed datapoint: 1473297170/None
+[2016-09-07 18:13:22,630 DEBUG Engine.consolidator] Merging into 1473297171
+[2016-09-07 18:13:22,630 DEBUG Engine.consolidator] Merging 1473297171
+[2016-09-07 18:13:22,716 DEBUG Engine.consolidator] Processed datapoint: 1473297171/None
+[2016-09-07 18:13:22,716 DEBUG Engine.consolidator] Merging into 1473297172
+[2016-09-07 18:13:22,716 DEBUG Engine.consolidator] Merging 1473297172
+[2016-09-07 18:13:22,794 DEBUG Engine.consolidator] Processed datapoint: 1473297172/None
+[2016-09-07 18:13:22,794 DEBUG Engine.consolidator] Merging into 1473297173
+[2016-09-07 18:13:22,794 DEBUG Engine.consolidator] Merging 1473297173
+[2016-09-07 18:13:22,871 DEBUG Engine.consolidator] Processed datapoint: 1473297173/None
+[2016-09-07 18:13:22,871 DEBUG Engine.consolidator] Merging into 1473297174
+[2016-09-07 18:13:22,871 DEBUG Engine.consolidator] Merging 1473297174
+[2016-09-07 18:13:22,953 DEBUG Engine.consolidator] Processed datapoint: 1473297174/None
+[2016-09-07 18:13:22,953 DEBUG Engine.consolidator] Merging into 1473297175
+[2016-09-07 18:13:22,953 DEBUG Engine.consolidator] Merging 1473297175
+[2016-09-07 18:13:23,028 DEBUG Engine.consolidator] Processed datapoint: 1473297175/None
+[2016-09-07 18:13:23,029 DEBUG Engine.consolidator] Merging into 1473297176
+[2016-09-07 18:13:23,029 DEBUG Engine.consolidator] Merging 1473297176
+[2016-09-07 18:13:23,110 DEBUG Engine.consolidator] Processed datapoint: 1473297176/None
+[2016-09-07 18:13:23,110 DEBUG Engine.consolidator] Merging into 1473297177
+[2016-09-07 18:13:23,110 DEBUG Engine.consolidator] Merging 1473297177
+[2016-09-07 18:13:23,180 DEBUG Engine.consolidator] Processed datapoint: 1473297177/None
+[2016-09-07 18:13:23,180 DEBUG Engine.consolidator] Merging into 1473297178
+[2016-09-07 18:13:23,180 DEBUG Engine.consolidator] Merging 1473297178
+[2016-09-07 18:13:23,260 DEBUG Engine.consolidator] Processed datapoint: 1473297178/None
+[2016-09-07 18:13:23,260 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:23,262 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:23,262 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:23,311 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:23,311 DEBUG Engine.blazemeter] KPI bulk buffer len: 11
+[2016-09-07 18:13:23,317 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-57d0b8e1b4159&signature=40606182637823029737718c2ee21ca0&test_id=5266494&user_id=117345&pq=0&target=labels_bulk&update=1 {
+ "sourceID": 4344690320, 
+ "labels": [
+  {
+   "percentileHistogramLatency": [], 
+   "otherErrorsCount": 0, 
+   "failedEmbeddedResources": [], 
+   "intervals": [
+    {
+     "by": {
+      "std": 0, 
+      "min": 0, 
+      "max": 0, 
+      "sum": 0, 
+      
+[2016-09-07 18:13:27,143 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-57d0b8e1b4159","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2016-09-07 18:13:27,143 DEBUG Engine.blazemeter.BlazeMeterUploader] Result: {u'status': u'INITIALIZING', u'_id': u'r-ext-57d0b8e1b4159', u'name': u'external', u'statusCode': 100}
+[2016-09-07 18:13:27,143 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============8978587011143863850==
+Content-Disposition: file; name="file"; filename="sample.jtl.blazemeter.summery.json"
+Content-Type: application/json
+
+{
+ "timestamp": 1473297178, 
+ "summery": {
+  "labels": [
+   {
+    "count": 651, 
+    "embeddedR
+[2016-09-07 18:13:29,131 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "sample.jtl.blazemeter.summery.json"
+    ]
+}
+[2016-09-07 18:13:29,162 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============0860526648167128387==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:13:34,643 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:13:34,649 DEBUG Engine] Iteration took 12.721 sec, sleeping for -11.721 sec...
+[2016-09-07 18:13:34,649 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:34,649 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:34,653 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:34,653 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 194 / 19454 bytes (at speed 1048576)
+[2016-09-07 18:13:34,656 DEBUG Engine.jmeter.JTLReader] Buffer len: 30
+[2016-09-07 18:13:34,656 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 16s
+[2016-09-07 18:13:34,664 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297181
+[2016-09-07 18:13:34,710 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297182
+[2016-09-07 18:13:34,750 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297183
+[2016-09-07 18:13:34,788 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297184
+[2016-09-07 18:13:34,826 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297185
+[2016-09-07 18:13:34,861 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297186
+[2016-09-07 18:13:34,903 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297187
+[2016-09-07 18:13:34,953 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297188
+[2016-09-07 18:13:34,999 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297189
+[2016-09-07 18:13:35,038 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297190
+[2016-09-07 18:13:35,078 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297191
+[2016-09-07 18:13:35,119 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297192
+[2016-09-07 18:13:35,159 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297193
+[2016-09-07 18:13:35,197 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297194
+[2016-09-07 18:13:35,240 DEBUG Engine.consolidator] Consolidator buffer[16]: [1473297179, 1473297180, 1473297181, 1473297182, 1473297183, 1473297184, 1473297185, 1473297186, 1473297187, 1473297188, 1473297189, 1473297190, 1473297191, 1473297192, 1473297193, 1473297194]
+[2016-09-07 18:13:35,240 DEBUG Engine.consolidator] Merging into 1473297179
+[2016-09-07 18:13:35,240 DEBUG Engine.consolidator] Merging 1473297179
+[2016-09-07 18:13:35,316 DEBUG Engine.consolidator] Processed datapoint: 1473297179/None
+[2016-09-07 18:13:35,316 DEBUG Engine.consolidator] Merging into 1473297180
+[2016-09-07 18:13:35,316 DEBUG Engine.consolidator] Merging 1473297180
+[2016-09-07 18:13:35,388 DEBUG Engine.consolidator] Processed datapoint: 1473297180/None
+[2016-09-07 18:13:35,388 DEBUG Engine.consolidator] Merging into 1473297181
+[2016-09-07 18:13:35,388 DEBUG Engine.consolidator] Merging 1473297181
+[2016-09-07 18:13:35,481 DEBUG Engine.consolidator] Processed datapoint: 1473297181/None
+[2016-09-07 18:13:35,482 DEBUG Engine.consolidator] Merging into 1473297182
+[2016-09-07 18:13:35,482 DEBUG Engine.consolidator] Merging 1473297182
+[2016-09-07 18:13:35,553 DEBUG Engine.consolidator] Processed datapoint: 1473297182/None
+[2016-09-07 18:13:35,553 DEBUG Engine.consolidator] Merging into 1473297183
+[2016-09-07 18:13:35,553 DEBUG Engine.consolidator] Merging 1473297183
+[2016-09-07 18:13:35,632 DEBUG Engine.consolidator] Processed datapoint: 1473297183/None
+[2016-09-07 18:13:35,632 DEBUG Engine.consolidator] Merging into 1473297184
+[2016-09-07 18:13:35,632 DEBUG Engine.consolidator] Merging 1473297184
+[2016-09-07 18:13:35,709 DEBUG Engine.consolidator] Processed datapoint: 1473297184/None
+[2016-09-07 18:13:35,710 DEBUG Engine.consolidator] Merging into 1473297185
+[2016-09-07 18:13:35,710 DEBUG Engine.consolidator] Merging 1473297185
+[2016-09-07 18:13:35,784 DEBUG Engine.consolidator] Processed datapoint: 1473297185/None
+[2016-09-07 18:13:35,784 DEBUG Engine.consolidator] Merging into 1473297186
+[2016-09-07 18:13:35,784 DEBUG Engine.consolidator] Merging 1473297186
+[2016-09-07 18:13:35,864 DEBUG Engine.consolidator] Processed datapoint: 1473297186/None
+[2016-09-07 18:13:35,864 DEBUG Engine.consolidator] Merging into 1473297187
+[2016-09-07 18:13:35,864 DEBUG Engine.consolidator] Merging 1473297187
+[2016-09-07 18:13:35,940 DEBUG Engine.consolidator] Processed datapoint: 1473297187/None
+[2016-09-07 18:13:35,940 DEBUG Engine.consolidator] Merging into 1473297188
+[2016-09-07 18:13:35,940 DEBUG Engine.consolidator] Merging 1473297188
+[2016-09-07 18:13:36,017 DEBUG Engine.consolidator] Processed datapoint: 1473297188/None
+[2016-09-07 18:13:36,017 DEBUG Engine.consolidator] Merging into 1473297189
+[2016-09-07 18:13:36,018 DEBUG Engine.consolidator] Merging 1473297189
+[2016-09-07 18:13:36,092 DEBUG Engine.consolidator] Processed datapoint: 1473297189/None
+[2016-09-07 18:13:36,093 DEBUG Engine.consolidator] Merging into 1473297190
+[2016-09-07 18:13:36,093 DEBUG Engine.consolidator] Merging 1473297190
+[2016-09-07 18:13:36,202 DEBUG Engine.consolidator] Processed datapoint: 1473297190/None
+[2016-09-07 18:13:36,202 DEBUG Engine.consolidator] Merging into 1473297191
+[2016-09-07 18:13:36,202 DEBUG Engine.consolidator] Merging 1473297191
+[2016-09-07 18:13:36,289 DEBUG Engine.consolidator] Processed datapoint: 1473297191/None
+[2016-09-07 18:13:36,289 DEBUG Engine.consolidator] Merging into 1473297192
+[2016-09-07 18:13:36,289 DEBUG Engine.consolidator] Merging 1473297192
+[2016-09-07 18:13:36,366 DEBUG Engine.consolidator] Processed datapoint: 1473297192/None
+[2016-09-07 18:13:36,366 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:36,367 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:36,367 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:36,409 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:36,409 DEBUG Engine.blazemeter] KPI bulk buffer len: 14
+[2016-09-07 18:13:36,419 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-57d0b8e1b4159&signature=40606182637823029737718c2ee21ca0&test_id=5266494&user_id=117345&pq=0&target=labels_bulk&update=1 {
+ "sourceID": 4344690320, 
+ "labels": [
+  {
+   "percentileHistogramLatency": [], 
+   "otherErrorsCount": 0, 
+   "failedEmbeddedResources": [], 
+   "intervals": [
+    {
+     "by": {
+      "std": 0, 
+      "min": 0, 
+      "max": 0, 
+      "sum": 0, 
+      
+[2016-09-07 18:13:37,190 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-57d0b8e1b4159","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2016-09-07 18:13:37,190 DEBUG Engine.blazemeter.BlazeMeterUploader] Result: {u'status': u'INITIALIZING', u'_id': u'r-ext-57d0b8e1b4159', u'name': u'external', u'statusCode': 100}
+[2016-09-07 18:13:37,191 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============7513314507369808253==
+Content-Disposition: file; name="file"; filename="sample.jtl.blazemeter.summery.json"
+Content-Type: application/json
+
+{
+ "timestamp": 1473297192, 
+ "summery": {
+  "labels": [
+   {
+    "count": 684, 
+    "embeddedR
+[2016-09-07 18:13:38,417 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "sample.jtl.blazemeter.summery.json"
+    ]
+}
+[2016-09-07 18:13:38,444 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============5131298112384771720==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:13:39,903 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:13:39,911 DEBUG Engine] Iteration took 5.261 sec, sleeping for -4.261 sec...
+[2016-09-07 18:13:39,911 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:39,911 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:39,913 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:39,913 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 15 / 1462 bytes (at speed 1048576)
+[2016-09-07 18:13:39,913 DEBUG Engine.jmeter.JTLReader] Putting sample 1473297189 into 1473297195
+[2016-09-07 18:13:39,913 DEBUG Engine.jmeter.JTLReader] Buffer len: 16
+[2016-09-07 18:13:39,913 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 17s
+[2016-09-07 18:13:39,922 DEBUG Engine.consolidator] Consolidator buffer[2]: [1473297193, 1473297194]
+[2016-09-07 18:13:39,922 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:39,924 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:39,924 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:39,935 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:39,935 DEBUG Engine.blazemeter] KPI bulk buffer len: 0
+[2016-09-07 18:13:39,935 DEBUG Engine] Iteration took 0.024 sec, sleeping for 0.976 sec...
+[2016-09-07 18:13:40,914 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:40,915 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:40,915 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:40,915 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 0 / 0 bytes (at speed 1048576)
+[2016-09-07 18:13:40,915 DEBUG Engine.jmeter.JTLReader] Buffer len: 16
+[2016-09-07 18:13:40,915 DEBUG Engine.consolidator] Consolidator buffer[2]: [1473297193, 1473297194]
+[2016-09-07 18:13:40,915 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:40,918 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:40,918 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:40,932 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:40,932 DEBUG Engine.blazemeter] KPI bulk buffer len: 0
+[2016-09-07 18:13:40,932 DEBUG Engine] Iteration took 0.018 sec, sleeping for 0.982 sec...
+[2016-09-07 18:13:41,919 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:41,920 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:41,920 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:41,920 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 1 / 187 bytes (at speed 1048576)
+[2016-09-07 18:13:41,920 DEBUG Engine.jmeter.JTLReader] Buffer len: 16
+[2016-09-07 18:13:41,920 DEBUG Engine.consolidator] Consolidator buffer[2]: [1473297193, 1473297194]
+[2016-09-07 18:13:41,920 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:41,921 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:41,921 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:41,930 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:41,931 DEBUG Engine.blazemeter] KPI bulk buffer len: 0
+[2016-09-07 18:13:41,931 DEBUG Engine] Iteration took 0.011 sec, sleeping for 0.989 sec...
+[2016-09-07 18:13:42,925 DEBUG Engine] Checking <bzt.modules.provisioning.Local object at 0x1018def10>
+[2016-09-07 18:13:42,925 DEBUG Engine] Checking <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1018def90>
+[2016-09-07 18:13:42,925 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:42,925 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 0 / 0 bytes (at speed 1048576)
+[2016-09-07 18:13:42,925 DEBUG Engine.jmeter.JTLReader] Buffer len: 16
+[2016-09-07 18:13:42,925 DEBUG Engine.consolidator] Consolidator buffer[2]: [1473297193, 1473297194]
+[2016-09-07 18:13:42,926 DEBUG Engine] Checking <bzt.modules.monitoring.Monitoring object at 0x1018f8ed0>
+[2016-09-07 18:13:42,928 DEBUG Engine] Checking <bzt.modules.reporting.FinalStatus object at 0x102f289d0>
+[2016-09-07 18:13:42,928 DEBUG Engine] Checking <bzt.modules.console.ConsoleStatusReporter object at 0x102f48f50>
+[2016-09-07 18:13:42,939 DEBUG Engine] Checking <bzt.modules.blazemeter.BlazeMeterUploader object at 0x102f6b650>
+[2016-09-07 18:13:42,939 DEBUG Engine.blazemeter] KPI bulk buffer len: 0
+[2016-09-07 18:13:42,940 DEBUG Engine.Configuration] Dumping YAML config into /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/effective.yml
+[2016-09-07 18:13:42,960 DEBUG Engine.Configuration] Dumping JSON config into /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/effective.json
+[2016-09-07 18:13:42,960 WARNING Engine] Please wait for graceful shutdown...
+[2016-09-07 18:13:42,968 INFO Engine] Shutting down...
+[2016-09-07 18:13:42,975 DEBUG Engine.local] Shutdown jmeter/_blazedemo_v3.jmx
+[2016-09-07 18:13:43,007 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x1018ded90>]/{<logging.StreamHandler object at 0x1018ded90>: <open file '<stdout>', mode 'w' at 0x100a9d150>}
+[2016-09-07 18:13:43,009 DEBUG Engine.Configuration] Dumping YAML config into /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/effective.yml
+[2016-09-07 18:13:43,028 DEBUG Engine.Configuration] Dumping JSON config into /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/effective.json
+[2016-09-07 18:13:43,029 INFO Engine] Post-processing...
+[2016-09-07 18:13:43,057 DEBUG Engine.local] Post-process jmeter/_blazedemo_v3.jmx
+[2016-09-07 18:13:43,057 DEBUG Engine] Add existing artifact (move=True): modified__blazedemo_v3.jmx
+[2016-09-07 18:13:43,057 DEBUG Engine] Moving modified__blazedemo_v3.jmx to /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/modified__blazedemo_v3.jmx
+[2016-09-07 18:13:43,058 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/kpi.jtl
+[2016-09-07 18:13:43,058 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 0 / 0 bytes (at speed 1048576)
+[2016-09-07 18:13:43,058 DEBUG Engine.jmeter.JTLReader] Buffer len: 16
+[2016-09-07 18:13:43,058 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297195
+[2016-09-07 18:13:43,109 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297196
+[2016-09-07 18:13:43,147 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297197
+[2016-09-07 18:13:43,185 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297198
+[2016-09-07 18:13:43,225 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297199
+[2016-09-07 18:13:43,262 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297200
+[2016-09-07 18:13:43,302 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297201
+[2016-09-07 18:13:43,339 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297202
+[2016-09-07 18:13:43,382 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297203
+[2016-09-07 18:13:43,421 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297204
+[2016-09-07 18:13:43,459 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297205
+[2016-09-07 18:13:43,502 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297206
+[2016-09-07 18:13:43,541 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297207
+[2016-09-07 18:13:43,602 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297208
+[2016-09-07 18:13:43,641 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297209
+[2016-09-07 18:13:43,681 DEBUG Engine.jmeter.JTLReader] Aggregating: 1473297210
+[2016-09-07 18:13:43,719 DEBUG Engine.consolidator] Consolidator buffer[18]: [1473297193, 1473297194, 1473297195, 1473297196, 1473297197, 1473297198, 1473297199, 1473297200, 1473297201, 1473297202, 1473297203, 1473297204, 1473297205, 1473297206, 1473297207, 1473297208, 1473297209, 1473297210]
+[2016-09-07 18:13:43,719 DEBUG Engine.consolidator] Merging into 1473297193
+[2016-09-07 18:13:43,719 DEBUG Engine.consolidator] Merging 1473297193
+[2016-09-07 18:13:43,789 DEBUG Engine.consolidator] Processed datapoint: 1473297193/None
+[2016-09-07 18:13:43,789 DEBUG Engine.consolidator] Merging into 1473297194
+[2016-09-07 18:13:43,789 DEBUG Engine.consolidator] Merging 1473297194
+[2016-09-07 18:13:43,867 DEBUG Engine.consolidator] Processed datapoint: 1473297194/None
+[2016-09-07 18:13:43,867 DEBUG Engine.consolidator] Merging into 1473297195
+[2016-09-07 18:13:43,867 DEBUG Engine.consolidator] Merging 1473297195
+[2016-09-07 18:13:43,943 DEBUG Engine.consolidator] Processed datapoint: 1473297195/None
+[2016-09-07 18:13:43,943 DEBUG Engine.consolidator] Merging into 1473297196
+[2016-09-07 18:13:43,943 DEBUG Engine.consolidator] Merging 1473297196
+[2016-09-07 18:13:44,025 DEBUG Engine.consolidator] Processed datapoint: 1473297196/None
+[2016-09-07 18:13:44,025 DEBUG Engine.consolidator] Merging into 1473297197
+[2016-09-07 18:13:44,025 DEBUG Engine.consolidator] Merging 1473297197
+[2016-09-07 18:13:44,097 DEBUG Engine.consolidator] Processed datapoint: 1473297197/None
+[2016-09-07 18:13:44,097 DEBUG Engine.consolidator] Merging into 1473297198
+[2016-09-07 18:13:44,097 DEBUG Engine.consolidator] Merging 1473297198
+[2016-09-07 18:13:44,183 DEBUG Engine.consolidator] Processed datapoint: 1473297198/None
+[2016-09-07 18:13:44,183 DEBUG Engine.consolidator] Merging into 1473297199
+[2016-09-07 18:13:44,183 DEBUG Engine.consolidator] Merging 1473297199
+[2016-09-07 18:13:44,306 DEBUG Engine.consolidator] Processed datapoint: 1473297199/None
+[2016-09-07 18:13:44,306 DEBUG Engine.consolidator] Merging into 1473297200
+[2016-09-07 18:13:44,306 DEBUG Engine.consolidator] Merging 1473297200
+[2016-09-07 18:13:44,377 DEBUG Engine.consolidator] Processed datapoint: 1473297200/None
+[2016-09-07 18:13:44,377 DEBUG Engine.consolidator] Merging into 1473297201
+[2016-09-07 18:13:44,377 DEBUG Engine.consolidator] Merging 1473297201
+[2016-09-07 18:13:44,449 DEBUG Engine.consolidator] Processed datapoint: 1473297201/None
+[2016-09-07 18:13:44,450 DEBUG Engine.consolidator] Merging into 1473297202
+[2016-09-07 18:13:44,450 DEBUG Engine.consolidator] Merging 1473297202
+[2016-09-07 18:13:44,528 DEBUG Engine.consolidator] Processed datapoint: 1473297202/None
+[2016-09-07 18:13:44,528 DEBUG Engine.consolidator] Merging into 1473297203
+[2016-09-07 18:13:44,528 DEBUG Engine.consolidator] Merging 1473297203
+[2016-09-07 18:13:44,604 DEBUG Engine.consolidator] Processed datapoint: 1473297203/None
+[2016-09-07 18:13:44,604 DEBUG Engine.consolidator] Merging into 1473297204
+[2016-09-07 18:13:44,604 DEBUG Engine.consolidator] Merging 1473297204
+[2016-09-07 18:13:44,675 DEBUG Engine.consolidator] Processed datapoint: 1473297204/None
+[2016-09-07 18:13:44,675 DEBUG Engine.consolidator] Merging into 1473297205
+[2016-09-07 18:13:44,675 DEBUG Engine.consolidator] Merging 1473297205
+[2016-09-07 18:13:44,756 DEBUG Engine.consolidator] Processed datapoint: 1473297205/None
+[2016-09-07 18:13:44,756 DEBUG Engine.consolidator] Merging into 1473297206
+[2016-09-07 18:13:44,756 DEBUG Engine.consolidator] Merging 1473297206
+[2016-09-07 18:13:44,824 DEBUG Engine.consolidator] Processed datapoint: 1473297206/None
+[2016-09-07 18:13:44,824 DEBUG Engine.consolidator] Merging into 1473297207
+[2016-09-07 18:13:44,824 DEBUG Engine.consolidator] Merging 1473297207
+[2016-09-07 18:13:44,925 DEBUG Engine.consolidator] Processed datapoint: 1473297207/None
+[2016-09-07 18:13:44,925 DEBUG Engine.consolidator] Merging into 1473297208
+[2016-09-07 18:13:44,925 DEBUG Engine.consolidator] Merging 1473297208
+[2016-09-07 18:13:44,996 DEBUG Engine.consolidator] Processed datapoint: 1473297208/None
+[2016-09-07 18:13:44,996 DEBUG Engine.consolidator] Merging into 1473297209
+[2016-09-07 18:13:44,996 DEBUG Engine.consolidator] Merging 1473297209
+[2016-09-07 18:13:45,069 DEBUG Engine.consolidator] Processed datapoint: 1473297209/None
+[2016-09-07 18:13:45,069 DEBUG Engine.consolidator] Merging into 1473297210
+[2016-09-07 18:13:45,069 DEBUG Engine.consolidator] Merging 1473297210
+[2016-09-07 18:13:45,164 DEBUG Engine.consolidator] Processed datapoint: 1473297210/None
+[2016-09-07 18:13:45,164 INFO Engine.final_stats] Test duration: 0:10:16
+[2016-09-07 18:13:45,164 INFO Engine.final_stats] Samples count: 8645, 2.85% failures
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Average times: total 4.750, latency 1.955, connect 0.420
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 0.0%: 1.543
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 50.0%: 4.363
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 90.0%: 6.943
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 95.0%: 8.306
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 99.0%: 15.391
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 99.9%: 19.906
+[2016-09-07 18:13:45,165 INFO Engine.final_stats] Percentile 100.0%: 24.912
+[2016-09-07 18:13:45,165 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2016-09-07 18:13:45,165 DEBUG Engine.blazemeter] KPI bulk buffer len in post-proc: 18
+[2016-09-07 18:13:45,175 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext-57d0b8e1b4159&signature=40606182637823029737718c2ee21ca0&test_id=5266494&user_id=117345&pq=0&target=labels_bulk&update=1 {
+ "sourceID": 4344690320, 
+ "labels": [
+  {
+   "percentileHistogramLatency": [], 
+   "otherErrorsCount": 0, 
+   "failedEmbeddedResources": [], 
+   "intervals": [
+    {
+     "by": {
+      "std": 0, 
+      "min": 0, 
+      "max": 0, 
+      "sum": 0, 
+      
+[2016-09-07 18:13:45,962 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext-57d0b8e1b4159","name":"external","statusCode":100,"status":"INITIALIZING"}}}
+[2016-09-07 18:13:45,964 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============4572883840534857349==
+Content-Disposition: file; name="file"; filename="sample.jtl.blazemeter.summery.json"
+Content-Type: application/json
+
+{
+ "timestamp": 1473297210, 
+ "summery": {
+  "labels": [
+   {
+    "count": 707, 
+    "embeddedR
+[2016-09-07 18:13:47,177 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "sample.jtl.blazemeter.summery.json"
+    ]
+}
+[2016-09-07 18:13:47,212 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/image/r-ext-57d0b8e1b4159/files?signature=40606182637823029737718c2ee21ca0 --===============0063733271338626189==
+Content-Disposition: file; name="file"; filename="Sids-MacBook-Pro-2.local.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "CPU": "CPU", 
+  "Network I/O": "Network I/O", 
+  "Memory": "Memory"
+ }, 
+
+[2016-09-07 18:13:48,591 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": [
+        "Sids-MacBook-Pro-2.local.monitoring.json"
+    ]
+}
+[2016-09-07 18:13:48,592 DEBUG Engine.blazemeter] Set last check time to: 1473296608.87
+[2016-09-07 18:13:48,592 INFO Engine.blazemeter.BlazeMeterUploader] Ending data feeding...
+[2016-09-07 18:13:48,592 DEBUG Engine.blazemeter.BlazeMeterUploader] Request: POST https://a.blazemeter.com/api/latest/sessions/r-ext-57d0b8e1b4159/terminateExternal {"sessionId": "r-ext-57d0b8e1b4159", "testId": 5266494, "signature": "40606182637823029737718c2ee21ca0"}
+[2016-09-07 18:13:49,037 DEBUG Engine.blazemeter.BlazeMeterUploader] Response: {
+    "api_version": 2,
+    "error": null,
+    "result": true
+}
+[2016-09-07 18:13:49,037 INFO Engine.blazemeter] Online report link: https://a.blazemeter.com/app/?public-token=xfI6xztRT6vJC1WUDUmqEETkVeG1P8SebNc7YuPOzAa9oPCaz5#reports/r-ext-57d0b8e1b4159/summary
+[2016-09-07 18:13:49,040 DEBUG Engine.Configuration] Dumping YAML config into /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/effective.yml
+[2016-09-07 18:13:49,063 DEBUG Engine.Configuration] Dumping JSON config into /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/effective.json
+[2016-09-07 18:13:49,063 INFO root] Artifacts dir: /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074
+[2016-09-07 18:13:49,063 INFO root] Done performing with code: 0
+[2016-09-07 18:13:49,063 DEBUG Engine] Add existing artifact (move=True): bzt.log
+[2016-09-07 18:13:49,064 DEBUG Engine] Moving bzt.log to /Users/sidnarang/demo_jenkins/jenkins/2016-09-07_18-03-28.434074/bzt.log

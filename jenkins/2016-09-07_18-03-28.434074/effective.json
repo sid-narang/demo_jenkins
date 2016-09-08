@@ -5,11 +5,18 @@
   "aggregator": "consolidator", 
   "default-executor": "jmeter", 
   "proxy": {}, 
-  "artifacts-dir": "%Y-%m-%d_%H-%M-%S.%f"
+  "artifacts-dir": "%Y-%m-%d_%H-%M-%S.%f", 
+  "hostaliases": {}
  }, 
  "reporting": [
   {
-   "module": "final_stats"
+   "dump-csv": null, 
+   "module": "final_stats", 
+   "summary": true, 
+   "test-duration": true, 
+   "percentiles": true, 
+   "dump-xml": null, 
+   "failed-labels": false
   }, 
   {
    "module": "console"
@@ -18,6 +25,7 @@
    "session-id": null, 
    "test-id": null, 
    "report-name": null, 
+   "forced-last-check": 1.47e+09, 
    "module": "blazemeter", 
    "signature": null, 
    "user-id": null, 
@@ -150,7 +158,6 @@
    "class": "bzt.modules.passfail.PassFailStatus"
   }, 
   "jmeter": {
-   "version": "3.0", 
    "properties": {
     "jmeter.save.saveservice.autoflush": "true", 
     "jmeter.save.saveservice.connect_time": "true", 
@@ -162,6 +169,9 @@
     "jmeterengine.nongui.maxport": 4445, 
     "jmeterengine.nongui.port": 4445
    }, 
+   "version": "3.0", 
+   "gui": false, 
+   "class": "bzt.modules.jmeter.JMeterExecutor", 
    "system-properties": {}, 
    "memory-xmx": null, 
    "download-link": null, 
@@ -178,7 +188,7 @@
    ], 
    "xml-jtl-flags": {}, 
    "path": "/Users/sidnarang/.bzt/jmeter-taurus/bin/jmeter.sh", 
-   "class": "bzt.modules.jmeter.JMeterExecutor", 
+   "shutdown-wait": 5, 
    "shutdown-port": 4445
   }, 
   "junit-xml": {
